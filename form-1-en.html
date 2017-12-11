@@ -124,21 +124,39 @@
 <div class="well">
 <div class="form-group">
 	<label for="commentator-name"><span class="field-name">Your name</span></label>
-	<input  id="commentator-name" class="form-control commentator"  "type="text" />
+	<input  id="commentator-name" class="form-control commentator"  "type="text" size="40" />
 	<div class="checkbox">
 		<label for="hidePublic"><input type="checkbox" name="hidePublic" value="1" id="hidePublic" />&#160;&#160;Hide your name from the public</label>
 	</div>
 </div>
+<section id="right-panel-version" class="wb-overlay modal-content overlay-def wb-panel-r" style="max-width:80%;top:10%;">
+	<header class="modal-header">
+	<h2 class="modal-title">Your privacy</h2>
+	</header>
+	<div class="modal-body">
+		<div class="mrgn-bttm-lg">
+		<p>All comments submitted via this form or any any other submission method will be published on the Canada.ca website. You may choose to hide your name associated with your comment from public view. </p>
+		<p> Your email address will not be displayed to the public.  Your email address and any other contact information you choose to provide is protected under Canada's Privacy Act. 
+		<a href="http://www.infosource.gc.ca/emp/emp03-eng.asp#psu914">PSU 914 </a> and
+		<a href="http://www.infosource.gc.ca/emp/emp03-eng.asp#psu938">PSU 938 </a>and found on
+		<a href="http://www.infosource.gc.ca/emp/emptb-eng.asp">INFOSOURCE</a>.</p>
+		</div>
+	</div>
+	<div class="modal-body">
+	<button class="btn btn-primary" type="button" onClick="$( '.wb-overlay' ).trigger( 'close.wb-overlay' );">Close</button>
+	</div>
+</section>
+
 <div class="form-group">
 <label for="commentator-email"><span class="field-name">Your email address </span><strong class="required">(required)</strong></label>
 <p>An email will be sent to you to verify blah blah design pattern</p>
-<input class="form-control commentator" id="commentator-email"  type="email" "class="required"/>
+<input class="form-control commentator-email" id="commentator-email"  type="email" "class="required"/>
 </div>
 <details>
 	<summary>Responding on behalf of an organization or third party</summary>
 	<div class="form-group">
 		<label for="commentator-org"><span class="field-name">Name of the organization you represent</span></label>
-		<input  id="commentator-org" class="form-control commentator" type="text" />
+		<input  id="commentator-org" class="form-control commentator" type="text" size="60" />
 	</div>
 	<div class="form-group">
 		<label for="commentator-identity">
@@ -160,27 +178,11 @@
 			<option value="Veterinary Drugs and Animal Products">Veterinary Drugs and Animal Products</option>
 			<option value="Other">Other</option>
 		</select>
+	<label for="commentator-extra"><span class="field-name">Anything else you would like to tell us about your organization?</span></label>
+		<input  id="commentator-extra" class="form-control commentator-extra" type="textarea" rows="4" cols="50"/>
 	</div>
 	</details>
 <p><a href="#right-panel-version" aria-controls="right-panel-version" class="overlay-lnk" role="button">Your privacy</a></p>
-<section id="right-panel-version" class="wb-overlay modal-content overlay-def wb-panel-r" style="max-width:80%;top:10%;">
-<header class="modal-header">
-<h2 class="modal-title">Your privacy</h2>
-</header>
-<div class="modal-body">
-<div class="mrgn-bttm-lg">
-<p>The submissions, including any personal, identifying information or contact information,
-accompanying the submission is protected under Canada's Privacy Act and is included in the personal
-information bank
-<a href="http://www.infosource.gc.ca/emp/emp03-eng.asp#psu914">PSU 914 </a> and
-<a href="http://www.infosource.gc.ca/emp/emp03-eng.asp#psu938">PSU 938 </a>and found on
-<a href="http://www.infosource.gc.ca/emp/emptb-eng.asp">INFOSOURCE</a>.</p>
-</div>
-</div>
-<div class="modal-body">
-<button class="btn btn-primary" type="button" onClick="$( '.wb-overlay' ).trigger( 'close.wb-overlay' );">Close</button>
-</div>
-</section>
 
 <section id="submit-panel" class="wb-overlay modal-content overlay-def wb-panel-r" style="max-width:80%;top:20%;">
 <header class="modal-header">
