@@ -122,38 +122,24 @@
 <form method="get" action="#commentsubmission" id="commentform" name="commentsubmission" role="form">
 <h2 id="formlead">Add your comments</h2>
 <div class="well">
-	<p>All submissions, regardless of how they are sent, will be reviewed for publication online at regconsultation.ca. Learn more about <a href="/p2protos/p2notices.html">Displaying comments online.</a></p>  
+	<p>All submissions, regardless of how they are sent, will be reviewed for publication online at regconsultation.ca. </p> 
+	<ul>
+		<li><a href="/p2protos/p2notices.html">Your privacy and viewing comments online</a></li>
+	</ul> 
 <div class="form-group">
-	<label for="commentator-name"><span class="field-name">Your name</span></label>
-	<input  id="commentator-name" class="form-control commentator" type="text" size="40">
+	<label for="commentator-name" class="required"><span class="field-name">Your name</span><strong class="required"(required)</strong></label>
+	<input  id="commentator-name" class="form-control commentator" type="text" size="40"required="required">
 	<div class="checkbox">
 		<label for="hidePublic"><input type="checkbox" name="hidePublic" value="1" id="hidePublic">&#160;&#160;Hide your name from the public</label>
 	</div>
-	<p><a href="#right-panel-version" aria-controls="right-panel-version" class="overlay-lnk" role="button">Protecting your privacy</a></p>
 </div>
 
 <div class="form-group">
 	<label for="commentator-email"><span class="field-name">Your email address </span><strong class="required">(required)</strong></label>
-	<p>Your email address will not be displayed in public. To protect you from fraudulent use of your name or email address, we'll send you an email which you must confirm before your submission will be accepted.</p>
+	<p>Your email address will not be displayed in public. An email will be sent which you must confirm before your submission will be accepted.</p>
 	<input class="form-control commentator-email" id="commentator-email"  type="email" "class="required"/>
 </div>
 
-<section id="right-panel-version" class="wb-overlay modal-content overlay-def wb-panel-r" style="max-width:60%;top:10%;">
-	<header class="modal-header">
-	<h2 class="modal-title">Your privacy</h2>
-	</header>
-	<div class="modal-body">
-		<div class="mrgn-bttm-lg">
-		<p>All comments submitted via this form or any any other submission method will be published on the Canada.ca website. </p>
-		<p>You may choose to hide your name associated with your comment from public view. </p>
-		<p> Your email address will not be displayed to the public.  Your email address and any other contact information you choose to provide is protected under Canada's Privacy Act. 
-		<a href="http://www.infosource.gc.ca/emp/emp03-eng.asp#psu914">PSU 914 </a> and
-		<a href="http://www.infosource.gc.ca/emp/emp03-eng.asp#psu938">PSU 938 </a>and found on
-		<a href="http://www.infosource.gc.ca/emp/emptb-eng.asp">INFOSOURCE</a>.</p>
-		<p> Your email address will be used to confirm that you are a human with an active email account.</p> 
-		</div>
-	</div>
-</section>
 <details style="margin-bottom:2em">
 	<summary>Responding on behalf of an organization or third party</summary>
 	<div class="form-group">
