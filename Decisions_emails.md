@@ -3,7 +3,8 @@ Email verification in Pilot2
 
 Verifying that your email address is live and belongs to you is now a familiar process to most people. Many sites send an email with a verification button or link as part of activating an account. 
 
-[Example email](https://vation-ca.github.io/p2protos/p2ex-email-en.html)
+* [5 simple email examples that work](http://vertdigital.com/blog/confirmation-emails-5-simple-examples-that-work/)
+* [Example eRegs verifcation email](https://vation-ca.github.io/p2protos/p2ex-email-en.html)
 
 >Conference: This proposal was not contentious at all at the conference, all supported. 
 
