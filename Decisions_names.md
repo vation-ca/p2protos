@@ -5,12 +5,12 @@ Commenter names in Pilot2
 
 Regulations.gov requires entry of names on the comment form for rules ,displays those names with the comments, has no option to hide them. Nothing stops fraudulent use of names when there is no authentication or email verification: 
 
->False names: 2 million people, including some dead people, were impersonated in FCC net neutrality comments - (ARS Technica)[https://arstechnica.com/tech-policy/2017/12/dead-people-among-millions-impersonated-in-fake-net-neutrality-comments/]
+>False names: 2 million people, including some dead people, were impersonated in FCC net neutrality comments - [ARS Technica](https://arstechnica.com/tech-policy/2017/12/dead-people-among-millions-impersonated-in-fake-net-neutrality-comments/)
 
 # Names invite trolls
 Research participants have reacted  negatively to having their name displayed in public with their comments, both out of principle (“I always protect my name on the internet”) and because of their comments (“I don’t want other people in my community to see that I am against x”). In response, they use fake names:
 
->Fake names: 7,000 submissions to the FCC net neutrality were from someone named "The Internet" - (Wired)[https://www.wired.com/story/fcc-net-neutrality-comment-analysis-fake-emails/]
+>Fake names: 7,000 submissions to the FCC net neutrality were from someone named "The Internet" - [Wired](https://www.wired.com/story/fcc-net-neutrality-comment-analysis-fake-emails/)
 
 
 #Two pronged proposal - hide names and use email verification
