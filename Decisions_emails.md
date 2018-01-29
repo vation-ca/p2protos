@@ -1,33 +1,31 @@
-Commenter names in Pilot2
+Email verification in Pilot2
 =====
 
-# Names without confirmation create fraud potential
+Verifying that your email address is live and belongs to you is now a familiar process to most people. Many sites send an email with a verification button or link as part of activating an account. 
 
-Regulations.gov requires entry of names on the comment form for rules ,displays those names with the comments, has no option to hide them. Nothing stops fraudulent use of names when there is no authentication or email verification: 
+[Example email](https://vation-ca.github.io/p2protos/p2ex-email-en.html)
 
->False names: 2 million people, including some dead people, were impersonated in FCC net neutrality comments - [ARS Technica](https://arstechnica.com/tech-policy/2017/12/dead-people-among-millions-impersonated-in-fake-net-neutrality-comments/)
+>Conference: This proposal was not contentious at all at the conference, all supported. 
 
-# Names invite trolls
-Research participants have reacted  negatively to having their name displayed in public with their comments, both out of principle (“I always protect my name on the internet”) and because of their comments (“I don’t want other people in my community to see that I am against x”). In response, they use fake names:
+# Email verification prevents submissions by bots 
 
->Fake names: 7,000 submissions to the FCC net neutrality were from someone named "The Internet" - [Wired](https://www.wired.com/story/fcc-net-neutrality-comment-analysis-fake-emails/)
+We believe that the email verification step will significantly reduce the fraudulent use of names because bots cannot simply create submissions that are not matched with live email accounts, and that are submitted all at once. 
 
-# Accounts are not the answer
-There is absolutely no way to stop people from using fake names. Someday, there will be a single government process for authenticate your identity, until then, fake names are possible. 
+> In May, more than 86,000 identical comments were submitted in a single second - [Wired](https://www.wired.com/story/fcc-net-neutrality-comment-analysis-fake-emails/)
 
-Accounts are not the answer right now - imposing creation of an account would require millions of dollars of software work and management, still could result in fake names,  and would create a barrier to participation by the public. 
+# Preventing organization-name fraud 
 
-Decision: providing the option to hide names from public display  will reduce the likelihood of people using a fake name to avoid their name being displayed on the internet. 
+For third party organizations, analysts will be able to compare the submitter’s email address with the organization name to do some fraud prevention. 
 
-# Two pronged proposal - allow people to hide their names and use email verification
+* For example, if the Organization name on the submission is the Canadian Federation of Independent Business, then the analyst could check that the submitter’s email address domain is cfib.ca 
 
-1. Name field is a required field with a checkbox below with option to “Hide my name from the public” for personal commenters
-  * Third party organizations will not have the option to hide their Organization name from being displayed, but the organization’s representative who submitted the comments can use the hide name checkbox for their name
+# Supporting stakeholders in editing submissions over time
 
->Conference: 24 people voted to allow people to hide their names from the public, 10 were against allowing hiding of names. 
->Examples: “Yes because otherwise people will give fake names, and that erodes credibility.”
->“No because transparency and accountability is a two-way street.” 
+Once email verification is set up, it provides a way to work on a submission over a long period of time. A different email can be generated with a link that acts as a tracking link. People can use the link from any browser to work on their submission until the end of the consultation period. 
 
-2. Use [email verification](Decisions_email.md) to reduce submissions by bots (and people) with fake names
+[Example editing email](https://vation-ca.github.io/p2protos/p2track-email-en.html)
 
+# Proposal 
+
+Comment submissions will not be accepted unless they are verified/confirmed via an active email account. No exceptions - if they skip the verify action, the submission is not accepted into the database. 
 
