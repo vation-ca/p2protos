@@ -23,7 +23,10 @@ Decision: providing the option to hide names from public display  will reduce th
 
 # Two pronged proposal - allow people to hide their names and use email verification
 
-1. Name field is a required field with a checkbox below with option to “Hide my name from the public” for personal commenters
+1. Name is required with a checkbox below with option to “Hide my name from the public” for personal commenters
+
+![Name being typed in then checkbox to hide name gets checked](./img/Hide_name.gif)
+
   * Third party organizations will not have the option to hide their Organization name from being displayed, but the organization’s representative who submitted the comments can use the hide name checkbox for their name
 
 >Conference: 24 people voted to allow people to hide their names from the public, 10 were against allowing hiding of names. 
